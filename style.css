@@ -16,13 +16,18 @@ ul {
     margin: 0;
 
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
 }
 
 ul li {
     list-style-type: none;
     color: white;
     padding: 10px;
+
+    text-align: center;
+    min-width: 50px;
 }
 
 ul li:hover {
