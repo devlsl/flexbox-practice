@@ -16,7 +16,7 @@ ul {
     margin: 0;
 
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 ul li {
@@ -30,12 +30,3 @@ ul li:hover {
     color: #2696E8;
 }
 
-ul li:nth-child(1) {
-    order: 3;
-}
-ul li:nth-child(2) {
-    order: 2;
-}
-ul li:nth-child(3) {
-    order: 1;
-}
