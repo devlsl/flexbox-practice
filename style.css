@@ -1,37 +1,16 @@
-body {
-    margin: 5px;
-    box-sizing: border-box;
-}
-
-.menu {
-    width: 700px;
-    margin: 0 auto;
-}
-
-ul { 
-    
-    background-color: #2696E8;
-    border: 1px solid #0000FF;
-    padding: 0;
-    margin: 0;
-
+.container {
     display: flex;
+    width: 70%;
+    border: 1px solid blue;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
 }
 
-ul li {
-    list-style-type: none;
-    color: white;
-    padding: 10px;
-
-    text-align: center;
-    min-width: 50px;
+.block {
+    margin: 0;
+    padding: 0;
+    height: 200px;
+    min-width: 200px;
+    border: 1px solid blue;
+    margin-bottom: 30px;
 }
-
-ul li:hover {
-    background-color: white;
-    color: #2696E8;
-}
-
