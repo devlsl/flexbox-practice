@@ -1,16 +1,19 @@
-.container {
+.menu {
+    
+    width: 400px;
+    border: 2px solid orange;
     display: flex;
-    width: 70%;
-    border: 1px solid blue;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    margin: 0 auto;
+    flex-direction: column;
 }
 
 .block {
-    margin: 0;
-    padding: 0;
-    height: 200px;
-    min-width: 200px;
-    border: 1px solid blue;
-    margin-bottom: 30px;
+    padding: 5px;
+    border: 2px solid blue;
+    flex: 1;
+    text-align: left;
+}
+
+.block:hover {
+    background-color: blue;
 }
